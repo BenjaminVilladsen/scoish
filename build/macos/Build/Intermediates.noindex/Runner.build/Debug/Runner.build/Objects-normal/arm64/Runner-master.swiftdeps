@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "d587bc40a4a75e5d4ae77b2063253da7ef624d0b6946f6e8c2da19257daccb25"
-build_start_time: [1656909719, 246711969]
-build_end_time: [1656909722, 400938034]
-inputs:
-  "/Users/ben/Developing/Flutter/mezcal/mezcal/macos/Flutter/GeneratedPluginRegistrant.swift": [1656909690, 487667560]
-  "/Users/ben/Developing/Flutter/mezcal/mezcal/macos/Runner/AppDelegate.swift": [1633618160, 973882198]
-  "/Users/ben/Developing/Flutter/mezcal/mezcal/macos/Runner/MainFlutterWindow.swift": [1633618160, 975408792]
