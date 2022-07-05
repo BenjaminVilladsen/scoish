@@ -1,0 +1,57 @@
+[debug] [2022-07-05T20:21:19.770Z] ----------------------------------------------------------------------
+[debug] [2022-07-05T20:21:19.772Z] Command:       /usr/local/bin/firebase /Users/ben/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting:github
+[debug] [2022-07-05T20:21:19.773Z] CLI Version:   11.2.0
+[debug] [2022-07-05T20:21:19.773Z] Platform:      darwin
+[debug] [2022-07-05T20:21:19.773Z] Node Version:  v16.15.0
+[debug] [2022-07-05T20:21:19.786Z] Time:          Tue Jul 05 2022 22:21:19 GMT+0200 (GMT+02:00)
+[debug] [2022-07-05T20:21:19.787Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-05T20:21:19.890Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-05T20:21:19.893Z] > authorizing via signed-in user (benmicvil@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ben/Developing/Flutter/mezcal/mezcal
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-05T20:21:19.901Z] Using project from CLI flag: scoish-4325d
+[debug] [2022-07-05T20:21:19.906Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/scoish-4325d [none]
+[debug] [2022-07-05T20:21:20.352Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/scoish-4325d 200
+[debug] [2022-07-05T20:21:20.356Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/scoish-4325d {"projectId":"scoish-4325d","projectNumber":"1042805960588","displayName":"scoish","name":"projects/scoish-4325d","resources":{"hostingSite":"scoish-4325d","realtimeDatabaseInstance":"scoish-4325d-default-rtdb"},"state":"ACTIVE"}
+[info] i  Using project scoish-4325d (scoish) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /Users/ben/Developing/Flutter/mezcal/mezcal is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=278556962&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-07-05T20:21:20.838Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-07-05T20:21:20.842Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-07-05T20:21:21.136Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-07-05T20:21:21.140Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-07-05T20:21:21.171Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-07-05T20:21:21.464Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-07-05T20:21:21.465Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"BenjaminVilladsen","id":92716696,"node_id":"U_kgDOBYa-mA","avatar_url":"https://avatars.githubusercontent.com/u/92716696?v=4","gravatar_id":"","url":"https://api.github.com/users/BenjaminVilladsen","html_url":"https://github.com/BenjaminVilladsen","followers_url":"https://api.github.com/users/BenjaminVilladsen/followers","following_url":"https://api.github.com/users/BenjaminVilladsen/following{/other_user}","gists_url":"https://api.github.com/users/BenjaminVilladsen/gists{/gist_id}","starred_url":"https://api.github.com/users/BenjaminVilladsen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BenjaminVilladsen/subscriptions","organizations_url":"https://api.github.com/users/BenjaminVilladsen/orgs","repos_url":"https://api.github.com/users/BenjaminVilladsen/repos","events_url":"https://api.github.com/users/BenjaminVilladsen/events{/privacy}","received_events_url":"https://api.github.com/users/BenjaminVilladsen/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":1,"public_gists":0,"followers":0,"following":0,"created_at":"2021-10-18T08:18:09Z","updated_at":"2022-07-05T20:05:40Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as BenjaminVilladsen 
+[info] 

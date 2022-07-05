@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1042805960588",
+    "project_id": "scoish-4325d",
+    "storage_bucket": "scoish-4325d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042805960588:android:435ebd0ea56d953c18b0a9",
+        "android_client_info": {
+          "package_name": "com.example.mezcal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042805960588-ku8sjek0sbgkiqsoelv70jc7sgn09r11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClU-Bkg6PNYvR8VezzKHkQ3xDPQOFF9iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042805960588-ku8sjek0sbgkiqsoelv70jc7sgn09r11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
